@@ -16,25 +16,19 @@ nav {
     background-color: teal;
     color: rgb(0, 231, 231);
     border-radius: 15px;
-    float: left;
     width: 220px;
-    
+    display: inline-block;
+    /* position: absolute; */
+    vertical-align: top;
 }
 
 ul {
     margin-left: -20px;
 }
 
-.home {
-    list-style-type: none;
-}
-
 h3 {
     background-color: grey;
     border-radius: 15px;
-    float: left;
-    width: 930px;
-    /* bottom: 0; */
     padding: 20px; 
 }
 
@@ -43,7 +37,6 @@ p {
     margin-bottom: 10px;
 }
 a {
-    /* text-decoration: none; */
     color: rgb(0, 231, 231);
 }
 
@@ -52,7 +45,9 @@ a {
     border-radius: 15px;
     padding: 20px;
     width: 680px;
-    float: right;
+    display: inline-block;
+    margin-left: 25px;
+    
 }
 li.mb_li {
     margin-top: 10px;
@@ -61,4 +56,8 @@ li.mb_li {
 
 .editor_styling {
     color: rgb(103, 101, 206);
+}
+
+.home {
+    list-style-type: none;
 }
